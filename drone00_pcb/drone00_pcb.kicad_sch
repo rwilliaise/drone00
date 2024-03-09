@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b4ad3788-5d3c-4e02-99ac-ae451f985cbb)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 166.37 90.17) (size 38.1 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9440e45e-7ba2-4bca-9f4d-4d63625a6a0a)
+    (property "Sheetname" "controller" (at 166.37 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "controller.kicad_sch" (at 166.37 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "drone00_pcb"
+        (path "/b4ad3788-5d3c-4e02-99ac-ae451f985cbb" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 71.12 90.17) (size 29.21 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 98361c95-2fbe-4dd3-8baa-fac2c28c5fea)
+    (property "Sheetname" "power" (at 71.12 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 71.12 116.1546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "drone00_pcb"
+        (path "/b4ad3788-5d3c-4e02-99ac-ae451f985cbb" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
